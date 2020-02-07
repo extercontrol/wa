@@ -1,0 +1,139 @@
+html,body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+header{
+	text-align: center;
+}
+header img{
+	width: 50%;
+}
+
+.divisor{
+	width: 100%;
+	height: 20px;
+	background: #00a300;
+}
+
+#validacion{
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px; 
+}
+
+.row{
+	margin: 30px 10px 30px 0;
+	text-align: justify;
+
+}
+
+#certificado{
+	font-size: 28px;
+	color: #00a300;
+}
+
+#folio{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+#valido{
+	font-size: 34px;
+	font-weight: 800;
+}
+
+.valido{color: #00a300;}
+.invalido{color: red;}
+
+.info-item-title{
+	font-weight: 600;
+	font-size: 26px;
+	
+}
+.info-item-value{
+	
+	font-size: 24px;
+}
+
+#hash{
+	font-size: 15px;
+	color: #aaa;
+}
+
+#error h1{
+	color: red;
+	font-size: 40px;
+}
+
+#error h2{
+	color: #00a300;
+	font-size: 30px;
+}
+
+.invisible{display: none;}
+
+#loader{
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition: all 2s;
+	text-align: center;	
+
+	background: rgba(255,255,255,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 52%, rgba(207,207,207,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(52%, rgba(246,246,246,1)), color-stop(100%, rgba(207,207,207,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 52%, rgba(207,207,207,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 52%, rgba(207,207,207,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 52%, rgba(207,207,207,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 52%, rgba(207,207,207,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cfcfcf', GradientType=1 );
+}
+
+#breathing-logo {
+    width: 30%;
+    
+    padding-top: 35vh;
+    
+  
+  
+    -webkit-animation: breathing 3s ease-out infinite normal;
+    animation: breathing 3s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+    }
+
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
