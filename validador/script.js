@@ -21,6 +21,18 @@ $.getJSON(url, function (data) {
 		$('#tratamiento-v').text(data.tratamiento);
 		$('#areas-v').text(data.areas);	
 	}
+	else if(data.encontrado === "Expired"){
+		$('#hash').text("hash: "+data.hash);
+		$('#folio').text(data.folio);
+		$('#cliente-v').text(data.cliente);
+		$('#domicilio-v').text(data.domicilio);
+		$('#localidad-v').text(data.localidad);
+		$('#fecha-v').text(data.fecha);
+		$('#tratamiento-v').text(data.tratamiento);
+		$('#areas-v').text(data.areas);
+		$('#valido').toggleClass('invisible');
+		$('#invalido').toggleClass('invisible');
+	}
 	else{
 		$('#info-valido').toggleClass('invisible');
 		$('#error').toggleClass('invisible');
