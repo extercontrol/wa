@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validar Documento</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Quicksand&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+	<header>
+		<img src="logo.png">
+	</header>
+	<div id="info-valido">
+		<div id="validacion">
+			<div id="certificado">Documento </div>
+			<div id="valido" class="valido"> VÁLIDO</div>
+		</div>
+
+		<div id="informacion">
+			<div class="row">
+				<div id="tipodoc-t" class="info-item-title">Tipo de documento </div>
+				<div id="tipodoc-v" class="info-item-value"></div>
+			</div>
+			<div class="row">
+				<div id="informacion-t" class="info-item-title">Información: </div>
+				<div id="informacion-v" class="info-item-value"></div>
+			</div>
+			<div class="row">
+				<div id="validez-t" class="info-item-title">Validez: </div>
+				<div id="validez-v" class="info-item-value"></div>
+			</div>
+		</div>
+	</div>
+	<div id="error" class="invisible">
+		<h1>No se encontró información</h1>
+		<h2>Favor de comunicarse al 2737342913 o 2731054784</h2>
+	</div>
+	<div class="divisor"></div>
+
+	<div id="hash">
+		hash: 
+	</div>
+
+	<div id="loader">
+		<img src="logo.png" id="breathing-logo">
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
