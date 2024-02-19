@@ -1,3 +1,5 @@
+import { registros, link } from './links_cofepris.js';
+
 function getUrlVars() {
 		var vars = {};
 		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -18,7 +20,16 @@ $.getJSON(url, function (data) {
 		$('#domicilio-v').text(data.domicilio);
 		$('#localidad-v').text(data.localidad);
 		$('#fecha-v').text(data.fecha);
-		$('#tratamiento-v').text(data.tratamiento);
+		$('#tratamiento-v').html(`${data.tratamiento}</br><a id="tratamiento-link-value" target=_blank>Ver registro</a>`);
+		let l = "#";
+		for(let i = 0; i < registros.length; i++){
+			if(data.tratamiento.includes(registros[i]))
+			{
+				l = link + registros[i];
+				break;
+			}
+		}
+		$('#tratamiento-link-value').attr("href", l);
 		$('#areas-v').text(data.areas);	
 	}
 	else if(data.encontrado === "Expired"){

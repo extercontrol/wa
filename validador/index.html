@@ -3,14 +3,16 @@
 <head>
 	<title>Validar Certificado</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Quicksand&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@300;500&family=Quicksand:wght@400;600&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 </head>
 <body>
 	<header>
-		<img src="logo.png">
+		<img src="logo.svg">
 	</header>
 	<div id="info-valido">
 		<div id="validacion">
@@ -40,6 +42,7 @@
 			<div class="row">
 				<div id="tratamiento-t" class="info-item-title">Tratamiento aplicado: </div>
 				<div id="tratamiento-v" class="info-item-value"></div>
+				
 			</div>
 			<div class="row">
 				<div id="areas-t" class="info-item-title">Áreas tratadas: </div>
@@ -61,6 +64,6 @@
 		<img src="logo.png" id="breathing-logo">
 	</div>
 
-	<script type="text/javascript" src="script.js"></script>
+	<script src="./script.js" type="module"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 html,body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 	margin: 0;
 	padding : 0;
 }
@@ -8,7 +9,8 @@ header{
 	text-align: center;
 }
 header img{
-	width: 30%;
+	width: 28%;
+	padding: 25px;
 }
 
 .divisor{
@@ -27,7 +29,7 @@ header img{
 	margin: 20px 5px;
 	text-align: justify;
 	border:1px solid black;
-	box-shadow: 5px 5px 3px 0px rgba(209,207,209,1);
+	/*box-shadow: 5px 5px 3px 0px rgba(209,207,209,1);*/
 }
 
 #certificado{
@@ -57,18 +59,22 @@ header img{
 }
 
 .info-item-title{
-	padding: 0 0 0 15px;
-	font-size: 26px;
-	background: #87d487;
+	padding: 3px 0 3px 15px;
+	font-size: 20px;
+	font-weight: 400;
+	/*background: #87d487;*/
+	background: #3c3c3c;
+	color: white;
 }
 .info-item-value{
-	padding: 0 10px  0 10px;
-	font-size: 24px;
+	padding: 3px 10px 3px 15px;
+	font-size: 18px;
 }
 
 #hash{
 	font-size: 15px;
 	color: #aaa;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #error h1{
@@ -160,10 +166,10 @@ header img{
 	}
 
 	.info-item-title{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.info-item-value{
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	#valido{
