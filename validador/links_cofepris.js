@@ -9,7 +9,8 @@ export const registros = [
     "RSCO-URB-INAC-119-313-008-2.5",
     "RSCO-MEZC-INAC-1155-X0011-425-27.66",
     "RSCO-INAC-0119-004-009-003",
-    "RSCO-URB-MEZC-1101D-X0006-085-15.10"
+    "RSCO-URB-MEZC-1101D-X0006-085-15.10",
+    "RSCO-FUMI-0407-316-006-056"
 ];
   
   export const link = "http://siipris03.cofepris.gob.mx/Resoluciones/Consultas/ConWebRegPlaguicida.asp?TipoRegPlafest=1&MM_Buscar=FrmBuscar&TxtBuscar=";
