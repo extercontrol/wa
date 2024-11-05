@@ -8,7 +8,7 @@ function getUrlVars() {
 
 var hash = getUrlVars()['hash'];
 
-var url = "https://script.google.com/macros/s/AKfycbylDtd0aSuOfdyvbe9fy8LNt7gdRIHxbWjNjD3xrqIjIdRvt4aOpGxuUktySnabx9Md/exec?callback=ctrlq&id="+hash;
+var url = "https://script.google.com/macros/s/AKfycbxJSuM4lOIkw5fh4wnpEEStlgS6Kbwin_yxeX0STXrGVlijzgCWlLyZYVVPkXOal_-p/exec?callback=ctrlq&id="+hash;
 
 $.getJSON(url, function (data) {
 	
